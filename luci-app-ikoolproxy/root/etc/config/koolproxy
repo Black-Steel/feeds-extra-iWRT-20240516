@@ -1,0 +1,129 @@
+
+config rss_rule
+	option load '0'
+	option name '去APP下载提示规则'
+	option url 'https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt'
+	option file 'NoAppDownload.txt'
+
+config rss_rule
+	option load '0'
+	option name '去色情悬浮广告'
+	option url 'https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt'
+	option file 'jiekouAD.txt'
+
+config rss_rule
+	option load '0'
+	option name 'quarklist'
+	option url 'https://raw.githubusercontent.com/bamf2077/quarklist/master/dist/quarklist.txt'
+	option file 'quarklist.txt'
+
+config rss_rule
+	option load '0'
+	option name 'SmartTV-AGH'
+	option url 'https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt'
+	option file 'SmartTV-AGH.txt'
+
+config rss_rule
+	option load '0'
+	option name 'mv'
+	option url 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt'
+	option file 'mv.txt'
+
+config rss_rule
+	option load '0'
+	option name '白名单'
+	option url 'https://raw.githubusercontent.com/Black-Steel/adblockfilters/main/rules/white.txt'
+	option file 'white.txt'
+
+config rss_rule
+	option load '0'
+	option name 'youtube-antiadblock'
+	option url 'https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/youtube-antiadblock.txt'
+	option file 'youtube-antiadblock.txt'
+
+config rss_rule
+	option load '0'
+	option name 'ublock-dynamic-rule'
+	option url 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/ublock-dynamic-rule.txt'
+	option file 'ublock-dynamic-rule.txt'
+
+config global
+	option koolproxy_ipv6 '0'
+	option enabled '1'
+	option koolproxy_mode '1'
+	option koolproxy_port '0'
+	option koolproxy_acl_default '1'
+	option time_update '0'
+	option koolproxy_rules 'koolproxy.txt daily.txt kp.dat user.txt'
+	option startup_delay '5'
+
+config usetips
+	option load '0'
+	option name '1'
+	option url '1'
+
+config acl_rule
+	option proxy_mode '2'
+	option remarks '华硕台式机'
+	option mac 'F4:3B:D8:80:93:73'
+
+config rss_rule
+	option load '0'
+	option name 'ikprule'
+	option url 'https://raw.githubusercontent.com/ilxp/koolproxy/main/rules/ikprule.txt'
+	option file 'ikprule.txt'
+
+config rss_rule
+	option load '0'
+	option name 'kpr_video_list'
+	option url 'https://raw.githubusercontent.com/user1121114685/koolproxyR/191c06c8d1f769f1b81c1437ad3b1271e0e58d7b/koolproxyR/koolproxyR/data/rules/kpr_video_list.txt'
+	option file 'kpr_video_list.txt'
+
+config rss_rule
+	option load '0'
+	option name 'easylistchina'
+	option url 'https://raw.githubusercontent.com/user1121114685/koolproxyR/master/koolproxyR/koolproxyR/data/rules/easylistchina.txt'
+	option file 'easylistchina.txt'
+
+config rss_rule
+	option load '0'
+	option name 'fanboy-annoyance'
+	option url 'https://raw.githubusercontent.com/user1121114685/koolproxyR/master/koolproxyR/koolproxyR/data/rules/fanboy-annoyance.txt'
+	option file 'fanboy-annoyance.txt'
+
+config rss_rule
+	option load '0'
+	option name 'yhosts'
+	option url 'https://raw.githubusercontent.com/user1121114685/koolproxyR/master/koolproxyR/koolproxyR/data/rules/yhosts.txt'
+	option file 'yhosts.txt'
+
+config rss_rule
+	option load '0'
+	option name '大圣净化'
+	option url 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
+	option file 'hosts'
+
+config rss_rule
+	option load '0'
+	option name 'antiadblockfilters'
+	option url 'https://easylist-downloads.adblockplus.org/antiadblockfilters.txt'
+	option file 'antiadblockfilters.txt'
+
+config rss_rule
+	option load '0'
+	option name 'anti-ad-for-dnsmasq'
+	option url 'https://anti-ad.net/anti-ad-for-dnsmasq.conf'
+	option file 'anti-ad-for-dnsmasq.conf'
+
+config rss_rule
+	option load '0'
+	option name 'adbyby-lazy'
+	option url 'https://cdn.jsdelivr.net/gh/kongfl888/ad-rules/lazy.txt'
+	option file 'lazy.txt'
+
+config rss_rule
+	option load '0'
+	option name 'adbyby-video'
+	option url 'https://cdn.jsdelivr.net/gh/kongfl888/ad-rules/video.txt'
+	option file 'video.txt'
+
